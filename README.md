@@ -1,10 +1,10 @@
-# Educational AI Agent Framework Ì¥ñ
+# Educational AI Agent Framework
 
 An advanced educational AI agent framework built using **LangGraph** and **Claude AI**, designed to showcase production-grade context engineering and complex agent architectures. 
 
 This project is structured as a comprehensive 5-part tutorial demonstrating how to build deep-reasoning agents from scratch, featuring ReAct loops, Pydantic-based state management, and asynchronous orchestration.
 
-## Ìºü Key Features
+## Key Features
 
 - **Advanced Agent Architectures**: Implemented robust ReAct (Reason-Act) loops for systematic problem-solving and tool execution.
 - **Production-Grade Context Engineering**: Designed sophisticated context management to handle long-horizon tasks efficiently without exceeding token limits.
@@ -13,7 +13,7 @@ This project is structured as a comprehensive 5-part tutorial demonstrating how 
 - **Hierarchical Sub-Agents**: Built complex reasoning capabilities through context isolation, delegating specialized tool sets to focused sub-agents for parallel research and task execution.
 - **Tavily-Powered Web Search**: Seamless integration with Tavily for real-time web search, enabling agents to gather, summarize, and synthesize live information.
 
-## Ì≥ö The 5-Notebook Tutorial
+## The 5-Notebook Tutorial
 
 This repository contains a progressive 5-notebook tutorial guiding you through the implementation of these advanced concepts:
 
@@ -23,7 +23,7 @@ This repository contains a progressive 5-notebook tutorial guiding you through t
 4. **`3_subagents.ipynb`**: Mastering sub-agent delegation and context isolation for complex workflows.
 5. **`4_full_agent.ipynb`**: Combining all techniques into a production-ready, hierarchical research agent with real web search capabilities.
 
-## Ì∫Ä Quickstart
+##  Quickstart
 
 ### Prerequisites
 
@@ -54,7 +54,7 @@ Add your API keys (`ANTHROPIC_API_KEY`, `TAVILY_API_KEY`, etc.) to the `.env` fi
 uv run jupyter notebook
 ```
 
-## Ìª†Ô∏è Technology Stack
+## Technology Stack
 - **Python 3.11+**
 - **LangGraph & LangChain** for asynchronous orchestration and agent loops
 - **Claude AI (Anthropic)** as the core LLM engine
