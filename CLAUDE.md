@@ -44,8 +44,8 @@ uv sync --extra dev
 langgraph up
 
 # The langgraph.json file defines two agents:
-# - studio_react_agent: "./src/deep-agents-from-scratch/studio_react_agent.py:agent"
-# - react_agent: "./src/deep-agents-from-scratch/react_agent.py:agent"
+# - studio_react_agent: "./src/ai-agent-framework/studio_react_agent.py:agent"
+# - react_agent: "./src/ai-agent-framework/react_agent.py:agent"
 ```
 
 ## Architecture
@@ -105,7 +105,7 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 # Optional: For evaluation and tracing
 LANGSMITH_API_KEY=your_langsmith_api_key_here
 LANGSMITH_TRACING=true
-LANGSMITH_PROJECT=deep-agents-from-scratch
+LANGSMITH_PROJECT=ai-agent-framework
 ```
 
 ## Testing
