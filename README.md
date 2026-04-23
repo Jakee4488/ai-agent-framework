@@ -2,7 +2,6 @@
 
 An advanced educational AI agent framework built using **LangGraph** and **Claude AI**, designed to showcase production-grade context engineering and complex agent architectures. 
 
-This project is structured as a comprehensive 5-part tutorial demonstrating how to build deep-reasoning agents from scratch, featuring ReAct loops, Pydantic-based state management, and asynchronous orchestration.
 
 ## Key Features
 
