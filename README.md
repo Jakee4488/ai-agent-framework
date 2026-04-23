@@ -13,15 +13,6 @@ This project is structured as a comprehensive 5-part tutorial demonstrating how 
 - **Hierarchical Sub-Agents**: Built complex reasoning capabilities through context isolation, delegating specialized tool sets to focused sub-agents for parallel research and task execution.
 - **Tavily-Powered Web Search**: Seamless integration with Tavily for real-time web search, enabling agents to gather, summarize, and synthesize live information.
 
-## The 5-Notebook Tutorial
-
-This repository contains a progressive 5-notebook tutorial guiding you through the implementation of these advanced concepts:
-
-1. **`0_create_agent.ipynb`**: Foundations of the ReAct loop and basic agent setup.
-2. **`1_todo.ipynb`**: Implementing task planning, status tracking, and context management.
-3. **`2_files.ipynb`**: Building the virtual file system for context offloading and state memory.
-4. **`3_subagents.ipynb`**: Mastering sub-agent delegation and context isolation for complex workflows.
-5. **`4_full_agent.ipynb`**: Combining all techniques into a production-ready, hierarchical research agent with real web search capabilities.
 
 ##  Quickstart
 
